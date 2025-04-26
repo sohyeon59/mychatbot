@@ -79,7 +79,7 @@ def initialize_components(selected_model):
     Use the following pieces of retrieved context to answer the question. \
     If you don't know the answer, just say that you don't know. \
     Keep the answer perfect. please use imogi with the answer.
-    대답은 한국어로 하고, 존댓말을 써줘.\
+    대답은 한국어로 하고, 학생에게 친구처럼 말하는 말투로 반말로 해줘.\
 
     {context}"""
     qa_prompt = ChatPromptTemplate.from_messages(
